@@ -1,0 +1,18 @@
+.course {
+    background-color: #131847;
+    color: rgb(186, 163, 14);
+    margin: 10px;
+    width: 30vw;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.courses {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
