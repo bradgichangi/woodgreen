@@ -12,7 +12,8 @@ function Home() {
                     Aliquam ac tellus et urna viverra pellentesque id ut turpis. Sed pretium, magna ut feugiat porta, orci libero dapibus nisi, vitae tristique est tellus et lorem. Curabitur ultricies velit vel tortor placerat porta. In porttitor eget est in vulputate. Vestibulum arcu odio, pharetra eu auctor vel, congue id urna. Mauris et quam ac enim ultrices semper. Donec tortor lacus, bibendum sit amet maximus quis, maximus eu dolor. Quisque feugiat odio rhoncus lorem aliquam egestas. Etiam quis lectus scelerisque, viverra sem nec, lobortis magna.</p>
             </main>
 
-            
+            <h3>What do we offer?</h3>
+            <div>View Courses</div>
 
         </div>
     );

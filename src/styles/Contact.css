@@ -1,0 +1,35 @@
+.contacts {
+    background-color: grey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    height: 90px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts p, h4 {
+    margin: 0;
+}
+
+.contact-div {
+    border: 1px solid red;
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-text {
+    padding-left: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+}

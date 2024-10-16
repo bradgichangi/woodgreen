@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function App() {
   return (<Router>
+    <div className='main'>
     <header>
       <img src={logo} className="logo" alt="logo" />
       <div>
@@ -38,7 +39,8 @@ function App() {
       <Route path="/courses" element={<Courses />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-    </Routes>
+      </Routes>
+    </div>
     <footer>
       <div></div>
       <div>
