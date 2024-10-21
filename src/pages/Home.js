@@ -13,7 +13,7 @@ function Home() {
             </main>
 
             <h3>What do we offer?</h3>
-            <div>View Courses</div>
+            <div className='course'>View courses</div>
 
         </div>
     );
