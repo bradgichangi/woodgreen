@@ -1,6 +1,6 @@
 .course {
     background-color: #131847;
-    color: rgb(186, 163, 14);
+    color: white;
     margin: 10px;
     width: 30vw;
     height: 50px;
@@ -9,6 +9,10 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+}
+
+.course :hover {
+    cursor: pointer;
 }
 
 .courses {

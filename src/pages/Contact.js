@@ -22,7 +22,7 @@ function Contact() {
                             </div>
                         </div>
                         <div className='contacts'>
-                            <FontAwesomeIcon icon={faEnvelope} size="2x" color="red" />
+                            <FontAwesomeIcon icon={faEnvelope} size="2x" />
                             <div className='contact-text'>
                                 <h4>Email</h4>
                                 <p>example@email.com</p>
@@ -42,11 +42,15 @@ function Contact() {
                     <div className='contact-div'>
                         <div className='contacts'>
                             <FontAwesomeIcon icon={faInstagram} size="2x" color="red" />
-                            <h4>Instagram</h4>
+                            <div className='contact-text'>
+                                <h4>Instagram</h4>
+                            </div>
                         </div>
                         <div className='contacts'>
                             <FontAwesomeIcon icon={faFacebook} size="2x" color="red" />
-                            <h4>Facebook</h4>
+                            <div className='contact-text'>
+                                <h4>Facebook</h4>
+                            </div>
                         </div>
                     </div>
                 </section>

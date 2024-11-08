@@ -4,9 +4,13 @@
   flex-direction: column;
 }
 
-.main{
-  height: 100vh;
+main {
+  margin-top: 80px;
 }
+
+/* .main{
+  height: 100vh;
+} */
 
 header {
   /* background-color: yellow; */
@@ -14,9 +18,11 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* font-size: calc(10px + 2vmin); */
+  position: fixed;
+  background-color: white;
   color: #282c34;
   height: 80px;
+  width: 100%;
 }
 
 .logo {
@@ -25,7 +31,7 @@ header {
 }
 
 footer {
-  background-color: #282c34;
+  background-color: #1a1a1a;
   color: white;
   align-items: flex-end;
 }
@@ -75,6 +81,24 @@ nav li:hover {
   color: white;
 }
 
+.course-section {
+  display: flex;
+  flex-direction: row;
+}
+
 footer {
-  height: 10vh;
+  /* height: 10vh; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-div p {
+  color: grey
 }
