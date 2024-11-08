@@ -3,9 +3,19 @@ import '../styles/Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressBook, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import Map from '../components/Map';
 
 
 function Contact() {
+
+    const openInNewTab = (url) => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    };
+
+    const handleEmailClick = () => {
+        window.location.href = 'mailto:example@example.com?subject=Hello%20from%20React&body=Just%20reaching%20out!';
+    };
+
     return (
         <div className="App">
 
@@ -21,7 +31,7 @@ function Contact() {
                                 <p>Tel: +254 717 592 373</p>
                             </div>
                         </div>
-                        <div className='contacts'>
+                        <div className='contacts' onClick={handleEmailClick}>
                             <FontAwesomeIcon icon={faEnvelope} size="2x" />
                             <div className='contact-text'>
                                 <h4>Email</h4>
@@ -40,13 +50,13 @@ function Contact() {
                     </div>
 
                     <div className='contact-div'>
-                        <div className='contacts'>
+                        <div className='contacts' onClick={() => openInNewTab('https://instagram.com')}>
                             <FontAwesomeIcon icon={faInstagram} size="2x" color="red" />
                             <div className='contact-text'>
                                 <h4>Instagram</h4>
                             </div>
                         </div>
-                        <div className='contacts'>
+                        <div className='contacts' onClick={() => openInNewTab('https://facebook.com')}>
                             <FontAwesomeIcon icon={faFacebook} size="2x" color="red" />
                             <div className='contact-text'>
                                 <h4>Facebook</h4>
@@ -56,6 +66,7 @@ function Contact() {
                 </section>
 
                 <h3>Where to find us</h3>
+                <Map />
             </main>
 
 

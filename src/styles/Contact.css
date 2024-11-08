@@ -9,14 +9,31 @@
     width: 80%;
     padding: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.contacts:hover {
+    background-color: #323266;
 }
 
 .contacts p, h4 {
     margin: 0;
 }
 
+.contacts:hover p {
+    color: white;
+}
+
+.contacts:hover h4 {
+    color: white;
+}
+
 .contacts svg {
-    color: darkblue;
+    color: #323266;
+}
+
+.contacts:hover svg {
+    color: #cb9964
 }
 
 .contact-div {
