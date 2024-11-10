@@ -66,7 +66,9 @@ function Contact() {
                 </section>
 
                 <h3>Where to find us</h3>
-                <Map />
+                <div className='map-section'>
+                    <Map />
+                </div>
             </main>
 
 

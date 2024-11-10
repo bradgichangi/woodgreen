@@ -1,0 +1,75 @@
+/* Navbar.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+} */
+
+.logo {
+    width: 50px;
+}
+
+/* h1 {
+    margin-left: 10px;
+    color: white;
+} */
+
+nav {
+    position: relative;
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    /* color: white; */
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.nav-link {
+    /* color: white; */
+    text-decoration: none;
+}
+
+/* Responsive styling for screens below 900px */
+@media (max-width: 1200px) {
+
+    /* Hide the nav links by default */
+    ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: red;
+        width: 100%;
+        padding: 1em;
+    }
+
+    /* Show the nav links when the menu is open */
+    /* ul.show {
+        display: flex;
+    } */
+
+    /* Show the hamburger icon */
+    .hamburger {
+        display: block;
+    }
+}

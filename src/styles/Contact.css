@@ -56,3 +56,10 @@ section {
     justify-content: center;
     width: 100vw;
 }
+
+.map-section {
+    max-width: 1200px;
+    height: 500px;
+    margin: 20px 50px;
+    aspect-ratio: 5 / 2;
+}

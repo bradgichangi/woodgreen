@@ -4,42 +4,19 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Courses from './pages/Courses';
 import Contact from './pages/Contact';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Navbar from './components/NavBar';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
-  return (<Router>
-    <header>
-      <img src={logo} className="logo" alt="logo" />
-      <div>
-        <h1>Woodgreen Training Institute</h1>
-      </div>
-
-      <nav>
-        <ul>
-          <li>
-            <Link to="/" className="nav-link">HOME</Link>
-          </li>
-          <li>
-            <Link to="/courses" className="nav-link">COURSES</Link>
-          </li>
-          <li>
-            <Link to="/about" className="nav-link">ABOUT</Link>
-          </li>
-          <li>
-            <Link to="/contact" className="nav-link">CONTACT</Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div className='main'>
+  return (<div>
     
-
-
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/courses" element={<Courses />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
+    <Navbar />
+    <div className='main'>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
     <footer>
@@ -56,7 +33,7 @@ function App() {
       </div>
 
     </footer>
-  </Router>
+  </div>
   );
 }
 
