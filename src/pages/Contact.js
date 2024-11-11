@@ -21,49 +21,46 @@ function Contact() {
 
             <main>
                 <h2>Contact Us</h2>
-                <section>
-                    <div className='contact-div'>
-                        <div className='contacts'>
-                            <FontAwesomeIcon icon={faPhone} size="2x" color="red" />
-                            <div className='contact-text'>
-                                <h4>Phone Number</h4>
-                                <p>Tel: +254 775 160 079</p>
-                                <p>Tel: +254 717 592 373</p>
-                            </div>
-                        </div>
-                        <div className='contacts' onClick={handleEmailClick}>
-                            <FontAwesomeIcon icon={faEnvelope} size="2x" />
-                            <div className='contact-text'>
-                                <h4>Email</h4>
-                                <p>example@email.com</p>
-                            </div>
-
-                        </div>
-                        <div className='contacts'>
-                            <FontAwesomeIcon icon={faAddressBook} size="2x" color="red" />
-                            <div className='contact-text'>
-                                <h4>P.O. Box Address</h4>
-                                <p>P.O. Box: 7635-00300 NBI</p>
-                            </div>
-
+                {/* <section> */}
+                <div className='contact-div'>
+                    <div className='contacts item1'>
+                        <FontAwesomeIcon icon={faPhone} size="2x" color="red" />
+                        <div className='contact-text'>
+                            <h4>Phone Number</h4>
+                            <p>Tel: +254 775 160 079</p>
+                            <p>Tel: +254 717 592 373</p>
                         </div>
                     </div>
-
-                    <div className='contact-div'>
-                        <div className='contacts' onClick={() => openInNewTab('https://instagram.com')}>
-                            <FontAwesomeIcon icon={faInstagram} size="2x" color="red" />
-                            <div className='contact-text'>
-                                <h4>Instagram</h4>
-                            </div>
+                    <div className='contacts item2' onClick={handleEmailClick}>
+                        <FontAwesomeIcon icon={faEnvelope} size="2x" />
+                        <div className='contact-text'>
+                            <h4>Email</h4>
+                            <p>example@email.com</p>
                         </div>
-                        <div className='contacts' onClick={() => openInNewTab('https://facebook.com')}>
-                            <FontAwesomeIcon icon={faFacebook} size="2x" color="red" />
-                            <div className='contact-text'>
-                                <h4>Facebook</h4>
-                            </div>
+
+                    </div>
+                    <div className='contacts item3'>
+                        <FontAwesomeIcon icon={faAddressBook} size="2x" color="red" />
+                        <div className='contact-text'>
+                            <h4>P.O. Box Address</h4>
+                            <p>P.O. Box: 7635-00300 NBI</p>
+                        </div>
+
+                    </div>
+                    <div className='contacts item4' onClick={() => openInNewTab('https://instagram.com')}>
+                        <FontAwesomeIcon icon={faInstagram} size="2x" color="red" />
+                        <div className='contact-text'>
+                            <h4>Instagram</h4>
                         </div>
                     </div>
-                </section>
+                    <div className='contacts item5' onClick={() => openInNewTab('https://facebook.com')}>
+                        <FontAwesomeIcon icon={faFacebook} size="2x" color="red" />
+                        <div className='contact-text'>
+                            <h4>Facebook</h4>
+                        </div>
+                    </div>
+                </div>
+                {/* </section> */}
 
                 <h3>Where to find us</h3>
                 <div className='map-section'>

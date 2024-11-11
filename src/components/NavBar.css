@@ -19,10 +19,9 @@
     width: 50px;
 }
 
-/* h1 {
-    margin-left: 10px;
-    color: white;
-} */
+header h1 {
+    font-size: clamp(16px, 3vw, 32px);
+}
 
 nav {
     position: relative;
@@ -49,24 +48,26 @@ ul {
 }
 
 /* Responsive styling for screens below 900px */
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
 
     /* Hide the nav links by default */
-    ul {
+
+    nav ul {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 120px;
         right: 0;
         background-color: red;
-        width: 100%;
+        width: 100px;
+        height: 170px;
         padding: 1em;
     }
 
     /* Show the nav links when the menu is open */
-    /* ul.show {
+    nav ul.show {
         display: flex;
-    } */
+    }
 
     /* Show the hamburger icon */
     .hamburger {

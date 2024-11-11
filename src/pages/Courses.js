@@ -30,7 +30,7 @@ function Courses() {
 
                 <section className='course-section'>
 
-                    <Modal isOpen={isModalOpen} onClose={closeModal}>
+                    <Modal className='modal' isOpen={isModalOpen} onClose={closeModal}>
                         <h2>Modal Title</h2>
                         <p>This is the modal content.</p>
                     </Modal>

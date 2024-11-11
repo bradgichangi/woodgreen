@@ -9,14 +9,24 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    font-size: clamp(10px, 2vw, 20px);
 }
 
-.course :hover {
+.course:hover {
     cursor: pointer;
+    color: #cb9964
 }
 
 .courses {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.modal-overlay {
+    position: absolute;
+    background-color: red;
+    border-radius: 5px;
+    height: 70vh;
+    width: 80vw;
 }
