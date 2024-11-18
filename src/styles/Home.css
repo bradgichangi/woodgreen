@@ -28,6 +28,11 @@ main {
     cursor: pointer;
 }
 
+.view-course:hover {
+    color: #cb9964;
+    cursor: pointer;
+}
+
 /* .main-text p{
     display: flex;
     align-items: center;

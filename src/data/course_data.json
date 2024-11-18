@@ -1,0 +1,56 @@
+{
+    "courses" : {
+        "certified" : [
+            {
+                "title": "Automotive Engineering",
+                "description": "Test Description"
+            },
+            {
+                "title": "Baking Technology",
+                "description": ""
+            },
+            {
+                "title": "Fashion Design Technology",
+                "description": ""
+            },
+            {
+                "title": "Information Communication Technology",
+                "description": ""
+            },
+            {
+                "title": "Food Production",
+                "description": ""
+            },
+            {
+                "title": "Food and Beverage Sales and Service",
+                "description": ""
+            },
+            {
+                "title": "Carpentry and Joinery",
+                "description": ""
+            }
+        ],
+        "diploma": [
+            {
+                "title": "Music Technology",
+                "description": ""
+            },
+            {
+                "title": "Welding and Fabrication",
+                "description": ""
+            },
+            {
+                "title": "Electrical Engineering (Power Option)",
+                "description": ""
+            },
+            {
+                "title": "Information Communication Technology",
+                "description": ""
+            },
+            {
+                "title": "Music Performance",
+                "description": ""
+            }
+        ]
+    }
+}

@@ -43,7 +43,7 @@ function Contact() {
                         <FontAwesomeIcon icon={faAddressBook} size="2x" color="red" />
                         <div className='contact-text'>
                             <h4>P.O. Box Address</h4>
-                            <p>P.O. Box: 7635-00300 NBI</p>
+                            <p>7635-00300 NBI</p>
                         </div>
 
                     </div>

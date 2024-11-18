@@ -1,6 +1,7 @@
-/* .slideshow {
+.slideshow {
     position: relative;
     max-width: 100%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
 }
@@ -50,9 +51,9 @@
 
 .dot.active {
     background-color: white;
-} */
+}
 
-.slideshow {
+/* .slideshow {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -66,4 +67,4 @@
 .slide {
     min-width: 100%;
     height: auto;
-}
+} */

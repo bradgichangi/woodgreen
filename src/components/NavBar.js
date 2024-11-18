@@ -2,6 +2,7 @@ import logo from '../images/wti_logo.png';
 import React, { useState } from 'react';
 import './NavBar.css';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -13,9 +14,15 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
+    const navigate = useNavigate();
+
+    const redirect = () => {
+        navigate('/');
+    };
+
     return (
         <header>
-            <img src={logo} className="logo" alt="logo" />
+            <img src={logo} onClick={redirect} className="logo" alt="logo" />
             <div>
                 <h1>Woodgreen Training Institute</h1>
             </div>
