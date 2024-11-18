@@ -33,16 +33,16 @@ const Navbar = () => {
                 </button>
                 <ul className={isOpen ? 'show' : ''}>
                     <li>
-                        <Link to="/" className="nav-link">HOME</Link>
+                        <Link to="/" onClick={toggleMenu} className="nav-link">HOME</Link>
                     </li>
                     <li>
-                        <Link to="/courses" className="nav-link">COURSES</Link>
+                        <Link to="/courses" onClick={toggleMenu} className="nav-link">COURSES</Link>
                     </li>
                     <li>
-                        <Link to="/about" className="nav-link">ABOUT</Link>
+                        <Link to="/about" onClick={toggleMenu} className="nav-link">ABOUT</Link>
                     </li>
                     <li>
-                        <Link to="/contact" className="nav-link">CONTACT</Link>
+                        <Link to="/contact" onClick={toggleMenu} className="nav-link">CONTACT</Link>
                     </li>
                 </ul>
             </nav>

@@ -23,6 +23,10 @@
     flex-direction: column;
 }
 
+.course-section {
+    margin-top: 20px;
+}
+
 .modal-content {
     background-color: "white";
     padding: "20px";
