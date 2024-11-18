@@ -1,4 +1,4 @@
-import logo from '../images/wti_logo.png';
+import logo from '../images/wti_logo_circular.png';
 import React, { useState } from 'react';
 import './NavBar.css';
 import { Link } from 'react-router-dom';

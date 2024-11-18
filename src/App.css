@@ -95,8 +95,14 @@ footer {
 .footer-div {
   display: flex;
   flex-direction: column;
+  margin: 30px;
+}
+
+.footer-div h4{
+  margin-bottom: 10px;
 }
 
 .footer-div p {
-  color: grey
+  color: grey;
+  margin-bottom: 3px;
 }

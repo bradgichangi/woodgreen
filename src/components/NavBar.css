@@ -78,7 +78,6 @@ ul {
         flex-direction: column;
         position: absolute;
         right: 0;
-        background-color: red;
         width: 100px;
         justify-content: start;
     }

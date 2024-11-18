@@ -21,8 +21,8 @@ function App() {
     </div>
     <footer>
       <div className="footer-div">
-        <h3>Woodgreen Training Institute</h3>
-        <p>*Possible Motto*</p>
+        <h4>Woodgreen Training Institute</h4>
+        <p>Skills For Life</p>
       </div>
       <div className="footer-div">
         <h4>Contacts</h4>
