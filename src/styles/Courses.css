@@ -1,3 +1,13 @@
+.courses-main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #cb9964;
+}
+
 .course {
     background-color: #323266;
     color: white;

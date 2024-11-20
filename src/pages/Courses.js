@@ -21,7 +21,7 @@ function Courses() {
     return (
         <div className="App">
 
-            <main>
+            <main className='courses-main'>
                 <h2>Courses</h2>
 
                 <section className='course-section'>

@@ -23,7 +23,7 @@ function Home() {
             <div className='slideshow'>
                 <Slideshow images={images} interval={5000} />
             </div>
-            <main>
+            <main className='home-main'>
                 
                 <div className='main-text'>
                     <h2>Welcome To Woodgreen Training Institute</h2>
