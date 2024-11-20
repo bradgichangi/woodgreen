@@ -2,6 +2,9 @@
     margin-top: 100px;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 h2 {

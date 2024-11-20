@@ -19,7 +19,7 @@ function Contact() {
     return (
         <div className="App">
 
-            <main>
+            <main className='contact-main'>
                 <h2>Contact Us</h2>
                 {/* <section> */}
                 <div className='contact-div'>
@@ -62,7 +62,7 @@ function Contact() {
                 </div>
                 {/* </section> */}
 
-                <h3>Where to find us</h3>
+                <h2>Where to find us</h2>
                 <div className='map-section'>
                     <Map />
                 </div>

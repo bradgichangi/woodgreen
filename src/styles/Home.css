@@ -40,6 +40,7 @@
     background-color: white;
     width: 60vw;
     border-radius: 5px;
+    padding: 20px 10px 10px 10px;
     /* height: 50vh; */
 }
 
@@ -52,6 +53,7 @@
 .main-section {
     background-color: white;
     border-radius: 5px;
+    padding: 20px 10px 10px 10px;
     /* height: 50vh; */
 }
 
