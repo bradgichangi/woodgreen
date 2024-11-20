@@ -7,7 +7,7 @@ const mapContainerStyle = {
     height: '400px',
 };
 const center = {
-    lat: 1.193236,
+    lat: -1.193236,
     lng: 36.747251,
 };
 
@@ -17,7 +17,7 @@ const Map = () => {
             <GoogleMap
                 mapContainerStyle={mapContainerStyle}
                 center={center}
-                zoom={10}
+                zoom={15}
             >
                 {/* Add a marker at the center */}
                 <Marker position={center} />

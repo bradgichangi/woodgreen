@@ -1,4 +1,4 @@
-import logo from './images/wti_logo.png';
+import logo from './images/wti_logo_circular.png';
 import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -20,9 +20,12 @@ function App() {
       </Routes>
     </div>
     <footer>
+      <div className='footer-div'>
+        <img src={logo} className="footer-logo" alt="logo" />
+      </div>
       <div className="footer-div">
         <h4>Woodgreen Training Institute</h4>
-        <p>Skills For Life</p>
+        <p className='footer-motto'>Skills For Life</p>
       </div>
       <div className="footer-div">
         <h4>Contacts</h4>
