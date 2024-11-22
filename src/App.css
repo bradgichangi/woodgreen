@@ -29,16 +29,18 @@ p {
 footer {
   background-color: #1a1a1a;
   color: white;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: start;
+  padding: 20px;
+  /* align-items: start; */
 }
 
 .footer-div {
   display: flex;
   flex-direction: column;
+  padding: 0 10px;
   /* margin: 30px; */
 }
 
@@ -49,16 +51,16 @@ footer {
 .footer-div p {
   color: grey;
   margin-bottom: 3px;
+  font-size: clamp(10px, 2vw, 16px);
 }
 
 .footer-logo {
-  /* width: 6rem; */
-  width: clamp(80px, 20%, 120px);;
+  width: clamp(80px, 10vw, 120px);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Inter&family=Rubik&display=swap');
 
 .footer-motto {
-  font-family: 'Imperial Script';
-  font-size: 30px;
+  /* font-family: 'Imperial Script'; */
+  /* font-size: 30px; */
 }

@@ -7,3 +7,15 @@
     width: 80vw;
     padding: 20px 10px 10px 10px;
 }
+
+.about-main p {
+    margin: 20px 50px;
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+
+    .about-main p {
+        margin: 20px 0;
+    }
+}

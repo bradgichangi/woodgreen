@@ -16,18 +16,26 @@ h2 {
     color: white;
     margin: 10px;
     width: 30vw;
-    height: 50px;
+    height: 60px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    padding: 10px;
+}
+
+.course h2 {
     font-size: clamp(10px, 2vw, 20px);
+    color: white;
+}
+
+.course h2:hover {
+    color: #cb9964
 }
 
 .course:hover {
     cursor: pointer;
-    color: #cb9964
 }
 
 .courses {

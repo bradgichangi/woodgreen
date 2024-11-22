@@ -28,7 +28,7 @@ function Courses() {
                     
                     <div className='courses'>
                         <h3>Certified</h3>
-                        {courseData['courses']['certified'].map((item) => (<div className='course' onClick={() => handleOpenModal(item)}>{item['title']}</div>))}
+                        {courseData['courses']['certified'].map((item) => (<div className='course' onClick={() => handleOpenModal(item)}><h2>{item['title']}</h2></div>))}
                         {selectedItem && <Modal item={selectedItem} onClose={handleCloseModal} />}
                         {/* <div className='course' onClick={openModal}>Automotive Engineering</div>
                         <div className='course'>Baking Technology</div>
@@ -42,7 +42,7 @@ function Courses() {
 
                     <div className='courses'>
                         <h3>Diploma</h3>
-                        {courseData['courses']['diploma'].map((item) => (<div className='course' onClick={() => handleOpenModal(item)}>{item['title']}</div>))}
+                        {courseData['courses']['diploma'].map((item) => (<div className='course' onClick={() => handleOpenModal(item)}><h2>{item['title']}</h2></div>))}
                         {selectedItem && <Modal item={selectedItem} onClose={handleCloseModal} />}
                         {/* <div className='course'>Music Technology</div>
                         <div className='course'>Welding and Fabrication</div>

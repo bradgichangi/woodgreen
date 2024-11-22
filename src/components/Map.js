@@ -20,7 +20,7 @@ const Map = () => {
                 zoom={15}
             >
                 {/* Add a marker at the center */}
-                <Marker position={center} />
+                <Marker position={center} visible={true} />
             </GoogleMap>
         </LoadScript>
     );
