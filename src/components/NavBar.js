@@ -24,6 +24,7 @@ const Navbar = () => {
     const navigate = useNavigate();
 
     const redirect = () => {
+        setActiveTab('/');
         navigate('/');
     };
 
