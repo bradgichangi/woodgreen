@@ -19,6 +19,10 @@
     padding: 5px;
 }
 
+.modal-content p {
+    text-align: left;
+}
+
 .modal-backdrop {
     position: fixed;
     top: 0;

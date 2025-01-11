@@ -6,13 +6,13 @@ function Modal({ item, onClose }) {
         <div className="modal-backdrop">
             <div className="modal-content">
                 <h2>{item.title}</h2>
-                <p>{item.description}</p>
+                <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
                 <button onClick={onClose} style={{ marginTop: "10px" }}>
                     X
                 </button>
             </div>
         </div>
     );
-};
+}
 
 export default Modal;
